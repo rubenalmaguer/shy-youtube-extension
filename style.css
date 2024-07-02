@@ -1,0 +1,13 @@
+/* video */
+.html5-video-player .video-click-tracking,
+.html5-video-player .video-stream,
+/* thumbnails */
+.yt-core-image,
+/* logo */
+yt-icon-shape,
+/* user */
+#avatar-btn,
+/* timeline  hover preview */
+.ytp-tooltip-bg {
+  opacity: 0;
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Shy YouTube",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description": "Make YouTube videos shy",
+    "offline_enabled": true,
+    "host_permissions": [
+        "*://www.youtube.com/*",
+        "*://music.youtube.com/*"
+    ],
+    "action": {
+        "default_title": "Shy YouTube"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://www.youtube.com/*",
+                "*://music.youtube.com/*"
+            ],
+            "css": [
+                "style.css"
+            ]
+        }
+    ]
+}
